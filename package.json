@@ -1,0 +1,16 @@
+{
+  "name": "samba-tractors",
+  "version": "1.0.0",
+  "description": "Samba Tractors - Reliable Tractor Services for Every Farm",
+  "scripts": {
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "seed": "npm run seed --prefix server",
+    "start": "node server/server.js"
+  },
+  "keywords": ["tractor", "farming", "samba-tractors", "mern", "booking"],
+  "author": "Samba Tractors",
+  "license": "ISC"
+}
