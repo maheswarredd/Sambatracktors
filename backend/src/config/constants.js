@@ -1,0 +1,55 @@
+export const ROLES = {
+  FARMER: 'farmer',
+  RIDER: 'rider',
+  ADMIN: 'admin'
+};
+
+export const BOOKING_STATUSES = {
+  PENDING: 'PENDING',
+  PAYMENT_PENDING: 'PAYMENT_PENDING',
+  PAYMENT_VERIFIED: 'PAYMENT_VERIFIED',
+  CONFIRMED: 'CONFIRMED',
+  RIDER_ASSIGNED: 'RIDER_ASSIGNED',
+  RIDER_ON_THE_WAY: 'RIDER_ON_THE_WAY',
+  ARRIVED: 'ARRIVED',
+  SERVICE_STARTED: 'SERVICE_STARTED',
+  SERVICE_COMPLETED: 'SERVICE_COMPLETED',
+  PAYMENT_COMPLETED: 'PAYMENT_COMPLETED',
+  CLOSED: 'CLOSED',
+  CANCELLED: 'CANCELLED',
+  REFUND_REQUESTED: 'REFUND_REQUESTED',
+  REFUND_APPROVED: 'REFUND_APPROVED',
+  REFUND_COMPLETED: 'REFUND_COMPLETED',
+  REFUND_REJECTED: 'REFUND_REJECTED'
+};
+
+export const TIME_SLOTS = [
+  'Morning 4:00 AM–10:00 AM',
+  'Afternoon 10:00 AM–2:00 PM',
+  'Evening 2:00 PM–6:00 PM',
+  'Night 6:00 PM–9:00 PM'
+];
+
+export const PAYMENT_METHODS = {
+  ONLINE: 'ONLINE',
+  CASH: 'CASH'
+};
+
+export const PAYMENT_STATUSES = {
+  PENDING: 'PENDING',
+  VERIFIED: 'VERIFIED',
+  REJECTED: 'REJECTED',
+  COMPLETED: 'COMPLETED'
+};
+
+export const SUPPORT_CATEGORIES = [
+  'Booking Issue',
+  'Payment Issue',
+  'Rider Not Reached',
+  'Rider Late',
+  'Wrong Location',
+  'Service Not Completed',
+  'Cancellation',
+  'Refund Request',
+  'Other Issue'
+];
